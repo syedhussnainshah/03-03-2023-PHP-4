@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .Parent {
+            background-color: blue;
+            width: 100%;
+            height: 100vh;
+        }
+
+        nav {
+            background-color: red;
+            width: 100%;
+            /* padding: 10px; */
+            height: 30vh;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+        }
+
+        nav>ul {
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            /* padding: 10px; */
+            width: 100%;
+            /* height: 30vh; */
+        }
+
+        nav>ul>li {
+            padding: 10px;
+            color: white;
+            background-color: black;
+            margin: 10px;
+        }
+    </style>
+    <div class="Parent">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Blog</li>
+                <li>Login</li>
+                <li>Signup</li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>
