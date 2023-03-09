@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .MainContainer {
+            background-color: lightblue;
+            width: 100%;
+            height: 100vh;
+        }
+
+        ul {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            list-style-type: none;
+        }
+
+        ul>li {
+            background-color: white;
+            margin: 4px;
+            padding: 10px;
+        }
+
+        @media screen AND (max-width: 640px) {
+            ul {
+                background-color: brown;
+
+            }
+
+
+        }
+
+        @media screen AND (max-width: 540px) {
+            ul {
+                background-color: red;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                list-style-type: none;
+            }
+
+            ul>li {
+                width: 100%;
+            }
+        }
+    </style>
+    <div class="MainContainer">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Pages</li>
+            <li>Login</li>
+            <li>Signup</li>
+            <li>Blog</li>
+            <li>Reg</li>
+        </ul>
+    </div>
+</body>
+
+</html>
